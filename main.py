@@ -4,7 +4,7 @@ import requests
 if __name__ == '__main__':
     print('hello world')
     s = requests.session()
-    response = s.get('https//:slack.com/', verify=True)
+    response = s.get('https://slack.com/', verify=True)
     print(response)
     """
     payload = {"type": "login",
